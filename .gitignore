@@ -16,5 +16,8 @@ include
 # bower dependencies
 caniuse_api/static/vendor
 
+#node dependencies
+node_modules
+
 #IDE stuff
 .idea

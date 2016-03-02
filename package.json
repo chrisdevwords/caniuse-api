@@ -1,0 +1,6 @@
+{
+  "name": "caniuse-api-front-end",
+  "dependencies": {
+    "bower": "^1.7.7"
+  }
+}
