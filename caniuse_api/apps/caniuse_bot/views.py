@@ -10,7 +10,7 @@ bot_blueprint = Blueprint(
 )
 
 
-@bot_blueprint.route('/hipchat', methods=['POST', 'GET'])
+@bot_blueprint.route('/hipchat', methods=['POST', 'GET'], strict_slashes=False)
 @authorized
 def hip_chat():
     if request.method == 'GET':
